@@ -25,7 +25,7 @@ from rtmpy import protocol, versions
 from rtmpy.protocol import handshake
 
 
-class ClientProtocol(protocol.BaseProtocol):
+class ClientProtocol(twisted_protocol.BaseProtocol):
     """
     Client RTMP Protocol.
     """
